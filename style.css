@@ -181,6 +181,11 @@ body {
 .history__img {
     height: 340px;
     border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.history__img:hover {
+    transform: scale(1.1);
 }
 
 .history__text p {
